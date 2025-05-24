@@ -44,3 +44,17 @@ const director1: Teacher = {
 // Output 
 console.log(teacher3);
 
+// Defining the interface for printTeacher function
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+// Using the interface for the function
+const printTeacher: printTeacherFunction = (firstName, lastName) => {
+  return `${firstName.charAt(0)}. ${lastName}`;
+};
+
+// Test
+console.log(printTeacher("John", "Doe")); // Output: J. Doe
+
+
