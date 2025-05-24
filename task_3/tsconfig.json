@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outDir": "./dist",
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "allowJs": true,
     "moduleResolution": "node",
         "skipLibCheck": true
-  }
+  },
+  "include": ["./task_3/js/main.ts"]
 }
