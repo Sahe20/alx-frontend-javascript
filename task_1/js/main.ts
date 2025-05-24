@@ -19,3 +19,28 @@ const teacher3: Teacher = {
 
 // Output 
 console.log(teacher3);
+
+// Defining the Directors interface
+interface director1 {
+  readonly firstName: string;
+  readonly lastName: string;
+  fullTimeEmployee: boolean;
+  yearsOfExperience?: number;
+  location: string;
+  numberOfReports: number;
+  [key: string]: any;  // This index signature allows any other properties
+}
+
+// Creating director1 object using the interface
+const director1: Teacher = {
+  firstName: 'Musa',
+  fullTimeEmployee: false,
+  lastName: 'Jackiteh',
+  location: 'Brewerville',
+  contract: false,
+  numberOfReports: 23,
+};
+
+// Output 
+console.log(teacher3);
+
