@@ -11,6 +11,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: 'ts-loader',
+        exclude: /node_modules/,
         options: {
           transpileOnly: true
         }
@@ -32,6 +33,6 @@ module.exports = {
   ],
   output: {
     filename: "bundle.js",
-    path: path.resolve(task_3, "dist")
+    path: path.resolve(__dirname, "dist")
   }
 };
