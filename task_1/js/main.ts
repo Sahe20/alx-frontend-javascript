@@ -84,3 +84,4 @@ class StudentClass implements StudentClassInterface {
 // test
 const student = new StudentClass("Musa", "Jackiteh");
 console.log(student.workOnHomework());  // Output: Currently working
+

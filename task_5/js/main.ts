@@ -23,3 +23,4 @@ function sumMinorCredits(subject1: MinorCredits, subject2: MinorCredits): MinorC
     __brand: 'minor'
   };
 }
+
